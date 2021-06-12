@@ -13,12 +13,21 @@ class QueueManager {
     return dataQueue
   }()
   
+  lazy var imageQueue: OperationQueue = {
+    let imageQueue = OperationQueue()
+    return imageQueue
+  }()
+  
   // MARK: - Singleton
   static let shared = QueueManager()
   
   
   // MARK: - Addition
-  func enqueueOperation(_ operation: Operation) {
+  func enqueueDataOperation(_ operation: Operation) {
     dataQueue.addOperation(operation)
+  }
+  
+  func enqueueImageOperation(_ operation: Operation) {
+    imageQueue.addOperation(operation)
   }
 }

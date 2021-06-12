@@ -23,6 +23,8 @@
 		55C7549626748A3A0012D533 /* QueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7549526748A3A0012D533 /* QueueManager.swift */; };
 		55C7549926748B4D0012D533 /* FetchImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7549826748B4D0012D533 /* FetchImageOperation.swift */; };
 		55C7549B2674912A0012D533 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7549A2674912A0012D533 /* CharacterCell.swift */; };
+		55C7549E267496980012D533 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7549D267496980012D533 /* ImageService.swift */; };
+		55C754A02674A0620012D533 /* StringProtocol+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7549F2674A0620012D533 /* StringProtocol+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		55C7549526748A3A0012D533 /* QueueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueManager.swift; sourceTree = "<group>"; };
 		55C7549826748B4D0012D533 /* FetchImageOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImageOperation.swift; sourceTree = "<group>"; };
 		55C7549A2674912A0012D533 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		55C7549D267496980012D533 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		55C7549F2674A0620012D533 /* StringProtocol+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 				55C75461267485BE0012D533 /* Assets.xcassets */,
 				55C75463267485BE0012D533 /* LaunchScreen.storyboard */,
 				55C75466267485BE0012D533 /* Info.plist */,
+				55C7549F2674A0620012D533 /* StringProtocol+Utility.swift */,
 				55C7549C2674912E0012D533 /* ViewsAndControllers */,
 				55C7549726748A560012D533 /* Utility */,
 				55C754922674885E0012D533 /* Operations */,
@@ -179,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				55C7549526748A3A0012D533 /* QueueManager.swift */,
+				55C7549D267496980012D533 /* ImageService.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -330,7 +336,9 @@
 				55C7545B267485BC0012D533 /* SceneDelegate.swift in Sources */,
 				55C7549B2674912A0012D533 /* CharacterCell.swift in Sources */,
 				55C7549626748A3A0012D533 /* QueueManager.swift in Sources */,
+				55C754A02674A0620012D533 /* StringProtocol+Utility.swift in Sources */,
 				55C754912674883D0012D533 /* CustomError.swift in Sources */,
+				55C7549E267496980012D533 /* ImageService.swift in Sources */,
 				55C75494267488760012D533 /* FetchLogosOperation.swift in Sources */,
 				55C7549926748B4D0012D533 /* FetchImageOperation.swift in Sources */,
 			);

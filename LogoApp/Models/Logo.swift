@@ -6,12 +6,12 @@
 //
 
 struct Logo: Codable {
-    let imageUrl: String?
-    let name: String?
-    
-    private enum CodingKeys: String, CodingKey {
-        case name
-        case imageUrl = "imgUrl"
-    }
+  let imageUrl: String?
+  let name: String?
+  
+  private enum CodingKeys: String, CodingKey {
+    case name
+    case imageUrl = "imgUrl"
+  }
 }
 

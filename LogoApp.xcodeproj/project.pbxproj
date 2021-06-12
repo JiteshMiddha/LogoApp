@@ -17,6 +17,10 @@
 		55C7547B267485BE0012D533 /* LogoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7547A267485BE0012D533 /* LogoAppUITests.swift */; };
 		55C754892674864B0012D533 /* LogoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 55C754882674864B0012D533 /* LogoData.json */; };
 		55C7548C267486870012D533 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7548B267486870012D533 /* Logo.swift */; };
+		55C7548F2674877B0012D533 /* DataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7548E2674877B0012D533 /* DataOperation.swift */; };
+		55C754912674883D0012D533 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C754902674883D0012D533 /* CustomError.swift */; };
+		55C75494267488760012D533 /* FetchLogosOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C75493267488760012D533 /* FetchLogosOperation.swift */; };
+		55C7549626748A3A0012D533 /* QueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7549526748A3A0012D533 /* QueueManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		55C7547C267485BE0012D533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55C754882674864B0012D533 /* LogoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LogoData.json; sourceTree = "<group>"; };
 		55C7548B267486870012D533 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		55C7548E2674877B0012D533 /* DataOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataOperation.swift; sourceTree = "<group>"; };
+		55C754902674883D0012D533 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		55C75493267488760012D533 /* FetchLogosOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchLogosOperation.swift; sourceTree = "<group>"; };
+		55C7549526748A3A0012D533 /* QueueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,8 @@
 				55C75461267485BE0012D533 /* Assets.xcassets */,
 				55C75463267485BE0012D533 /* LaunchScreen.storyboard */,
 				55C75466267485BE0012D533 /* Info.plist */,
+				55C7549726748A560012D533 /* Utility */,
+				55C754922674885E0012D533 /* Operations */,
 				55C7548D267487140012D533 /* Models */,
 				55C7548A267486590012D533 /* SupportingFiles */,
 			);
@@ -146,8 +156,26 @@
 			isa = PBXGroup;
 			children = (
 				55C7548B267486870012D533 /* Logo.swift */,
+				55C754902674883D0012D533 /* CustomError.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		55C754922674885E0012D533 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				55C7548E2674877B0012D533 /* DataOperation.swift */,
+				55C75493267488760012D533 /* FetchLogosOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		55C7549726748A560012D533 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				55C7549526748A3A0012D533 /* QueueManager.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +311,12 @@
 			files = (
 				55C7545D267485BC0012D533 /* ViewController.swift in Sources */,
 				55C75459267485BC0012D533 /* AppDelegate.swift in Sources */,
+				55C7548F2674877B0012D533 /* DataOperation.swift in Sources */,
 				55C7548C267486870012D533 /* Logo.swift in Sources */,
 				55C7545B267485BC0012D533 /* SceneDelegate.swift in Sources */,
+				55C7549626748A3A0012D533 /* QueueManager.swift in Sources */,
+				55C754912674883D0012D533 /* CustomError.swift in Sources */,
+				55C75494267488760012D533 /* FetchLogosOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

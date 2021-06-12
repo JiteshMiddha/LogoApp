@@ -15,6 +15,8 @@
 		55C75465267485BE0012D533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C75463267485BE0012D533 /* LaunchScreen.storyboard */; };
 		55C75470267485BE0012D533 /* LogoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7546F267485BE0012D533 /* LogoAppTests.swift */; };
 		55C7547B267485BE0012D533 /* LogoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7547A267485BE0012D533 /* LogoAppUITests.swift */; };
+		55C754892674864B0012D533 /* LogoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 55C754882674864B0012D533 /* LogoData.json */; };
+		55C7548C267486870012D533 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7548B267486870012D533 /* Logo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		55C75476267485BE0012D533 /* LogoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C7547A267485BE0012D533 /* LogoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAppUITests.swift; sourceTree = "<group>"; };
 		55C7547C267485BE0012D533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C754882674864B0012D533 /* LogoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LogoData.json; sourceTree = "<group>"; };
+		55C7548B267486870012D533 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				55C75461267485BE0012D533 /* Assets.xcassets */,
 				55C75463267485BE0012D533 /* LaunchScreen.storyboard */,
 				55C75466267485BE0012D533 /* Info.plist */,
+				55C7548D267487140012D533 /* Models */,
+				55C7548A267486590012D533 /* SupportingFiles */,
 			);
 			path = LogoApp;
 			sourceTree = "<group>";
@@ -126,6 +132,22 @@
 				55C7547C267485BE0012D533 /* Info.plist */,
 			);
 			path = LogoAppUITests;
+			sourceTree = "<group>";
+		};
+		55C7548A267486590012D533 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				55C754882674864B0012D533 /* LogoData.json */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		55C7548D267487140012D533 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55C7548B267486870012D533 /* Logo.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C754892674864B0012D533 /* LogoData.json in Resources */,
 				55C75465267485BE0012D533 /* LaunchScreen.storyboard in Resources */,
 				55C75462267485BE0012D533 /* Assets.xcassets in Resources */,
 				55C75460267485BC0012D533 /* Main.storyboard in Resources */,
@@ -260,6 +283,7 @@
 			files = (
 				55C7545D267485BC0012D533 /* ViewController.swift in Sources */,
 				55C75459267485BC0012D533 /* AppDelegate.swift in Sources */,
+				55C7548C267486870012D533 /* Logo.swift in Sources */,
 				55C7545B267485BC0012D533 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
